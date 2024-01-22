@@ -13,7 +13,7 @@ jobs:
       contents: write
     env:
       REGISTRY: ghcr.io
-      IMAGE_NAME: ${{ github.repository }}
+      IMAGE_NAME: openchami/hurl-test
 
     steps:
       - name: Checkout
